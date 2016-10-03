@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.com.lucas.springShop.daos.ShopService;
 import br.com.lucas.springShop.exceptions.ShopNotFound;
 import br.com.lucas.springShop.models.Shop;
+import br.com.lucas.springShop.services.ShopService;
 
 @Controller
 @RequestMapping(value="/shop")
